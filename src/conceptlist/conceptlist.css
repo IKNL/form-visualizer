@@ -1,0 +1,12 @@
+.ConceptList{
+    height: 95vh;
+    overflow: auto;
+    padding: 5px;
+}
+
+.primitives{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #404C63;
+}

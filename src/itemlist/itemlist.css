@@ -1,0 +1,26 @@
+.ItemList{
+    height: 50vh;
+    overflow: auto;
+}
+
+.ItemList li{
+    list-style-type: none;
+    padding:5px;
+    user-select: none;
+
+}
+
+.ItemList li:hover{
+    background-color: rgba(255,255,255,0.3);
+    transition: all 0.2s;
+    cursor: pointer;
+    border-left:3px solid #404C63;
+    margin-left: -3px;
+}
+
+.primitives{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #404C63;
+}

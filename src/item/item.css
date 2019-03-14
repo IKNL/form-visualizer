@@ -1,0 +1,35 @@
+.item {
+    padding: 20px 10px 20px 10px;
+    border:0;
+    background:rgba(0,0,0,0.05);
+}
+.item label{
+    margin-right:20px;
+    padding-top: 6px;
+    width:250px;
+    display:block;
+    float:left;
+}
+.item input{
+    width: 300px;
+    padding: 8px 15px;
+}
+.item-wrapper{
+    flex-direction: row;
+    display: flex;
+    
+}
+.item-group{
+    
+}
+.item .connector{
+    flex-direction: column;
+    width:10px;
+    background-color:rgb(170, 101, 153);
+    color:white;
+    /* flex-direction: row; */
+}
+.item .input{
+    flex: 1;
+    /* display: inline-block; */
+}
